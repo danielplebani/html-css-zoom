@@ -41,14 +41,14 @@ header>span{
 main{
     background-color:#000000;
     max-height: calc(100vh -8rem);
-    overflow: auto;
 }
 
 main>.conteiner{
     height: 1500px;
+    overflow: auto;
     width: 80%;
     margin: auto;
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 .conteiner>.row{
@@ -87,56 +87,64 @@ footer{
     display: flex;
 }
 
-footer>.col1 , footer>.col3{
-    width: 20% ;
-    color: white;
-}
-
 footer>.col1{
-    padding-top: 5px;
+    width: 15%;
+    color: white;
+    padding: 8px 10px;
     display: flex;
-}
-
-.col1>.microphone{
-    display: inline-block;
-}
-
-.microphone>div{
-    padding:0 17px;
-    font-size: small;
-}
-
-#mic{
-    padding-left: 25px;
-}
-
-#mic>svg{
-    width: 15px;
-    height: 30px;
-}
-
-.col1>span{
-    padding-top: 5px;
-}
-
-#video{
-    padding-left: 40px;
-}
-
-#video>svg{
-    width: 20px;
-    height: 30px;
 }
 
 footer>.col2{
-    padding-top: 5px;
-    display: flex;
-    width: 60% ;
+    width: 77%;
     color: white;
+    padding: 8px 10px;
 }
 
-.col2>.cont{
-    width: 60%;
-    margin: auto;
+footer>.col3{
+    width: 8%;
+    color: white;
+    padding: 8px 10px;
+    text-align: end;
+    background-color: rgba(128, 128, 128, 0.541);
+    font-size: small;
+    color: red;
 }
+
+.col3>div{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.col1>.cont1{
+    width: 40%;
+    padding-top: 5px;
+}
+
+.col2>.cont2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.cont2>.cont2b{
+    width: calc(90%/8);
+}
+
+.icon, .text_icon{
+    text-align: center;
+}
+
+.text_icon{
+    text-align: center;
+    font-size: x-small;
+}
+
+.icon{
+    font-size: x-large;
+}
+
+.col1>.arrow{
+    width: 10%;
+}
+
 /*#endregion footer*/
