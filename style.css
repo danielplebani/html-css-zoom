@@ -12,9 +12,6 @@
 header{
     height: 4rem;
     background-color: #000000;
-    width: 100%;
-    position: fixed;
-    z-index: 5;
 }
 
 header>span{
@@ -50,11 +47,11 @@ main{
 }
 
 main>.conteiner{
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 8rem);
     overflow: auto;
     width: 80%;
     margin: auto;
-    padding: 4rem 0;
+    padding: 1rem 0;
 }
 
 .conteiner>.row{
