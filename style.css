@@ -14,29 +14,29 @@ header{
     background-color: #000000;
 }
 
-header>span{
+header>.conteiner-header{
     color: white;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.conteiner-header>#squares{
     background-color: #4a4a4aaa;
-    position: absolute;
-    top: 1%;
-    right: 2.5%;
     padding: 3px 6px;
     border-radius: 7px;
 }
 
-#squares{
-    display: inline-block;
-    font-size: 15px;
+.conteiner-header>#x-arrow{
+    background-color: #4a4a4aaa;
+    padding: 3px 6px;
+    border-radius: 7px;
+    margin-left: 5px;
 }
 
-header>#x-arrow{
-    display: inline-block;
-    font-size: 15px; 
-    top: 1%;
-    right: 6px;
-}
+
 
 /*#endregion header*/
 
@@ -56,6 +56,7 @@ main>.conteiner{
 
 .conteiner>.row{
     display: flex;
+    flex-wrap: wrap;
     height: 150px;
 }
 
